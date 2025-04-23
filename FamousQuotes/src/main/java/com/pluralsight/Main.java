@@ -1,10 +1,14 @@
 package com.pluralsight;
+import java.io.FileInputStream;
+import java.io.*;
 import java.util.*;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+     // FileInputStream quotesFIS = new FileInputStream("quotes.txt");
+    //  Scanner readQuotes = new Scanner(quotesFIS);
 
 
 List<String> famousQuotes = new ArrayList<>();
