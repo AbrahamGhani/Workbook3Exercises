@@ -10,7 +10,7 @@ example i got from my dad
 NOTE TO SELF -- improve method to maybe prompt user for details and use that to write the file like i have in the main method
  */
 
-public static void addEmployeeInFile(String _filename, List<Employee> _employees){
+public static void writeEmployeeListIntoNewFile(String _filename, List<Employee> _employees){
 
     try {
         FileWriter fileWriter = new FileWriter(_filename);
@@ -22,7 +22,7 @@ public static void addEmployeeInFile(String _filename, List<Employee> _employees
             bufferedWriter.newLine();
         }
         bufferedWriter.close();
-
+        System.out.println("Contents Written into new file");
     }catch (IOException e){
         System.out.println("IOException");
     }

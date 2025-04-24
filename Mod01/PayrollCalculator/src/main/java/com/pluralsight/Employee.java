@@ -63,12 +63,13 @@ public class Employee {
     }
 
 
-
-
-
-
-
-
-
-
+//    @Override
+//    public String toString() {
+//        return "Employee{" +
+//                "employeeID=" + employeeID +
+//                ", name='" + name + '\'' +
+//                ", hoursWorked=" + hoursWorked +
+//                ", payRate=" + payRate +
+//                '}';
+//    }
 }
